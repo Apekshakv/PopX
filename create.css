@@ -1,0 +1,76 @@
+.create-container {
+    width: 360px;
+    padding: 24px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.create-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    
+    margin: 0;
+    line-height: 1.2;
+}
+
+.create-container h2:last-of-type {
+    margin-bottom: 8px; 
+}
+
+.create-container p {
+    font-size: 14px;
+    color: #666; 
+    margin: 0;
+    line-height: 1.5;
+}
+
+.create-container p:last-of-type {
+    margin-bottom: 16px; 
+}
+
+.create-container label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 4px;
+}
+
+.create-container input[type="email"],
+.create-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 24px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.create-container input[type="email"]::placeholder,
+.create-container input[type="password"]::placeholder {
+    color: #999;
+}
+
+
+
+.create-container button {
+    width: 100%;
+    
+    background-color: lightgrey; 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 12px;
+    transition: background-color 0.2s;
+}
+
+.create-container button:hover {
+    background-color: gray;
+}
